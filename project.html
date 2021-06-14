@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+      <link rel="stylesheet" href="css.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&amp;family=Oswald&amp;display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png">
+    <title>Random Minecraft Bonanza!</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <nav>
+      <a class="active">Final Project  </a>
+      <a id="c" class="active">Lee Eisenberg, Jesse Ding    </a>
+      </nav>
+</div>
+<div class="bkgr">
+  <div class="tctt">
+  <h1 class="bb">Random Minecraft Bonanza!</h1>
+<div class="shott">
+<br>
+  <p class="txt"> Minecraft is the most widely sold video game of all time. With over 200 million copies sold across all platforms, the influence and impact that Minecraft carries and produces are unfathomable. Like each Minecraft world, there are infinite topics to analyze. In this project, we will generate Markov sentences using content from Minecraft's website, do data analysis regarding bug fixes and changes over time, and will be answering the following questions: </p><ul>
+      <p></p>
+      <ul class="txt">
+      <li>Which released snapshot brought the most changes to the game? How has the trend of new changes added over time?</li>
+      <br>
+      <li>Which snapshot fixed the most bugs? How has the trend of bug fixes changed over time?</li>
+      <br>
+      <li>Most importantly... which type of Minecraft block are you?</li>
+      <br>
+    </ul>
+	 <p class="txt"> To make our project possible, we imported the Python modules urlopen and madplotlib. </p>
+<br>
+    </ul></div>
+</div>
+</div>
+
+<h2 class="how">Generated Markov Sentences</h2>
+<div class="chain">
+    <div class="textb">
+<p> This stage of the project is when we used urllib, which is a Python module that allows for Python to retrieve data from the internet. We then imported the urlopen function. urllib and urlopen allow us to efficiently obtain website data from the internet, where we can then use the data we collected to run it through the Markov code. <p>
+  <p> STRINGS 
+</p>
+
+    </div>
+</div>
+
+  <h2 class="how"><b></b> Changes Released in Each Snapshot Over Time</h2>
+  <div class="chain">
+<div class="textb">
+  <p> How did our program work? The beginning of each bug fixes and changes section starts with the &lt;li&gt; HTML tag, thus, we used our website parsing code (which also uses urllib) to count the number of &lt;li&gt; tags. We then used the Python module madplotlib to create visuals. </p>
+<ul>
+    Main Takeaways
+    <li> In the later snapshots, there were a lot more changes added more frequently and evenly. In the earlier snapshots, such as 17, it wasn't guaranteed that each snapshot update would have changes added. However, in snapshot 21s, each update would have a higher chance of having changes added to the game.</li>
+    <li>Snapshot 21s had the most changes, whereas snapshot 17s had the least changes.</li>
+  </ul>
+  </div>
+<img class="img1" src="changes.png" alt="changes" width="800" height="400">
+</div>
+
+<h2 class="how">Number of Bugs Changed in Each Snapshot Over Time</h2>
+<div class="chain">
+    <img src="bugs.png" alt="Bugs" width="800" height="400">
+    <div class="textb">
+		<ul>
+		    Main Takeaways
+		    <li> As more modern versions of the game began to come out, more bugs fixes were implemented into the game. There is an upwards trend of bug fixes throughout the snapshots, and it peaks around the snapshot 20s. </li>
+		    <li>Snapshot 20s had the most bug fixes, whereas snapshot 17s had the least bug fixes.</li>
+		  </ul>
+
+    </div>
+</div>
+<h2 class="how">Which Minecraft Block are you?</h2>
+<p id="ls" class="chain2"> To find which Minecraft block you are, click
+<a href="https://www.beano.com/posts/which-minecraft-block-are-you">here!</a></p>
+<p id="ls" class="chain2"> According to the quiz, Lee is a Jungle Wood Block and Jesse is a Lava Block! </p>
+</body></html>
